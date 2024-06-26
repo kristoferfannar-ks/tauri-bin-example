@@ -1,0 +1,9 @@
+[package]
+name = "non-tauri-app"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+bin_crate = { path = "../bin_crate", artifact = "bin" }
+
+[dependencies]
